@@ -1,0 +1,134 @@
+.body,div{
+    margin:0;
+    padding:0;
+    
+}.navbar{
+    display: flex;
+    height:80px;
+    justify-content:space-around;
+    background:black;
+    color:white;
+    align-items: center;
+   margin-top: 0;
+   position: relative;
+   top:-10px;
+
+}
+.camera{
+    height:100%;
+    margin:10px;
+}
+ul{
+    display:flex;
+    list-style-type: none;
+}
+li{
+    margin: 0px 15px;
+    font-size: 20px;
+}
+.navbarfirst{
+    display:flex;
+    height:70%;
+    align-items:center;
+}
+.navbar button{
+    height:75%;
+    margin:10px 0px;
+    border-radius: 20px;
+    width:150px;
+    font-size:20px;
+    color:green;
+    border:4px solid green;
+}
+.navbarnext{
+    display: flex;
+    flex-direction:column;
+    background:grey;
+    width: 85%;
+    margin:auto;
+    height: 60px;
+    justify-content: space-around;
+    padding:20px;
+    border-radius: 20px;
+}
+.navbarnext h2{
+    color:darkblue;
+}
+.grid{
+    display: flex;
+    flex-wrap:wrap;
+    width:85%;
+    margin:0px auto;
+}
+.gridphoto{
+    width:30%;
+    margin:20px auto;
+    border-radius: 10px;
+}
+.undergrid{
+    background-image: url("photo-1510784722466-f2aa9c52fff6.avif");
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    height:350px;
+    background-size: cover;
+
+}
+.undergrid > h2{
+    color:darkgreen;
+    letter-spacing: 0.9px;
+}
+.undergrid h1{
+    color:white;
+    font-weight: bolder;
+    font-size: 50px;
+}
+.undergrid  p{
+    color:rgb(93, 87, 87);
+    letter-spacing: 1.4px;
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+.undergrid button{
+    height:50px;
+    margin:10px 0px;
+    border-radius: 20px;
+    width:150px;
+    font-size:20px;
+    color:green;
+    border:4px solid green;
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    color:white;
+    height:300px;
+}
+footer div{
+    width:20%;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+footer button{
+    height:40px;
+    margin:30px 0px;
+    border-radius: 20px;
+    width:150px;
+    font-size:20px;
+    color:green;
+    border:4px solid green;
+}
+footer input{
+    height:40px;
+    margin:30px 0px;
+    border-radius: 20px;
+    width:250px;
+    font-size:20px;
+    color:green;
+    border:4px solid green;
+}
